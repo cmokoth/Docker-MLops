@@ -1,8 +1,8 @@
 [![Build Status](https://dev.azure.com/davidsmi0786/davidsmiRtest/_apis/build/status/revodavid.RMLops?branchName=master)](https://dev.azure.com/davidsmi0786/davidsmiRtest/_build/latest?definitionId=1&branchName=master)
 
-# Machine Learning and Development Operations
+# Machine Learning Operations
 
-When deploying machine learning models in different environemtns, it is useful to create portable, efficient code that can be automated. Using Docker and popular languages R and Python, I am creating trainable models using Docker and Amazon Web Serivices. These examples are recreated from existing resources with credit attributed.
+When deploying machine learning models, it is useful to create portable, efficient code that can be automated. Using Docker and popular languages R and Python, I am creating trainable models using Docker and Amazon Web Serivices. These examples are recreated from existing resources with credit attributed.
 
 ## PyMLops: A Complete Guide for Docker Beginners
 
