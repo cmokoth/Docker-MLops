@@ -11,16 +11,14 @@ This is a Github repostitory following along Tina Bu's [Build a Docker Container
 ## RMLops: A simple R example for Azure Pipelines
 
 This is the Github repository associated with this Azure Pipelines project: https://dev.azure.com/davidsmi0786/davidsmiRtest. It is intended as a simple example
-of using R with Azure Pipelines to use a CI/CD process to trigger training of a
-predictive model.
+of using R with ~~Azure Pipelines to use a CI/CD process to trigger training of a
+predictive model.~~ Docker to create a playlist generator using Spotify datasets.
 
 ## Model Contents
 
-The model I will be porting is a Spotify dataset (my own. Don't worry I have excellent taste) containing my streaming history, sorted into the best possible playlists using K-nearest neighbors. I will let you know which ones are the best.
+The model I will be porting is a Spotify dataset (my own. Don't worry I have excellent taste) containing my streaming history, sorted into the best possible playlists using K-nearest neighbors. I will let you know which ones are the best. If you would like to know for yourself, use this model to design your own playlists.
 
-#### Development Details
 
-Developed in RStudio using Quarto and Jupyter Notebooks.
 
 ### Presentations
 
@@ -40,3 +38,6 @@ Slides from the presentation [A DevOps process for deploying R to production](ht
 
 [Build a Docker Container with Your Machine Learning Model](https://towardsdatascience.com/build-a-docker-container-with-your-machine-learning-model-3cf906f5e07e)
 
+#### Development Details
+
+Developed in RStudio using Quarto and Jupyter Notebooks.
