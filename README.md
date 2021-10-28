@@ -1,5 +1,5 @@
-[![Build Status](https://dev.azure.com/davidsmi0786/davidsmiRtest/_apis/build/status/revodavid.RMLops?branchName=master)](https://dev.azure.com/davidsmi0786/davidsmiRtest/_build/latest?definitionId=1&branchName=master)
-
+<!--- [![Build Status](https://dev.azure.com/davidsmi0786/davidsmiRtest/_apis/build/status/revodavid.RMLops?branchName=master)](https://dev.azure.com/davidsmi0786/davidsmiRtest/_build/latest?definitionId=1&branchName=master)
+--->
 # Machine Learning Operations
 
 When deploying machine learning models, it is useful to create portable, efficient code that can be automated. Using Docker and popular languages R and Python, I am creating trainable models using Docker and Amazon Web Serivices. These examples are recreated from existing resources with credit attributed.
@@ -14,6 +14,13 @@ This is the Github repository associated with this Azure Pipelines project: http
 of using R with Azure Pipelines to use a CI/CD process to trigger training of a
 predictive model.
 
+## Model Contents
+
+The model I will be porting is a Spotify dataset (my own. Don't worry I have excellent taste) containing my streaming history, sorted into the best possible playlists using K-nearest neighbors. I will let you know which ones are the best.
+
+#### Development Details
+
+Developed in RStudio using Quarto and Jupyter Notebooks.
 
 ### Presentations
 
@@ -30,4 +37,6 @@ Slides from the presentation [A DevOps process for deploying R to production](ht
 [Train and deploy machine learning models with Azure Pipelines](https://aka.ms/azpipe) (Microsoft Docs). 
 
 [Azure Machine Learning Service](https://aka.ms/amlsvc) (Microsoft Docs). 
+
+[Build a Docker Container with Your Machine Learning Model](https://towardsdatascience.com/build-a-docker-container-with-your-machine-learning-model-3cf906f5e07e)
 
