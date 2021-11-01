@@ -8,4 +8,4 @@ RUN
 RUN python3 --version
 RUN pip install
 
-COPY model ./
+COPY src

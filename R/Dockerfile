@@ -1,3 +1,5 @@
+
+## version of r to be loaded
 FROM rocker/r-base:3.6.0
 
 RUN apt-get update -qq 
